@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<BaseLayout title={`${post.data.title} | Boundless`} activeNav="blog">
+  <article class="blog-post">
+    <div class="blog-meta">
+      <time datetime={post.data.date}>{post.data.date}</time>
+      {post.data.tags && post.data.tags.map((tag: string) => (
+        <span class="tag">{tag}</span>
+      ))}
+    </div>
+    <h1>{post.data.title}</h1>
+    <Content />
+  </article>
+</BaseLayout>

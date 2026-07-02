@@ -1,0 +1,208 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="旅行足迹 | Boundless" activeNav="travel">
+
+  <!-- Page Header -->
+  <section style="margin-bottom: var(--zy-space-16);">
+    <h2 style="font-family: var(--zy-font-display); font-size: clamp(28px, 4vw, 40px); font-weight: var(--zy-font-bold); letter-spacing: var(--zy-tracking-tight); line-height: var(--zy-leading-tight); color: var(--zy-text-primary); margin-bottom: var(--zy-space-4);" data-zh="旅行足迹" data-en="Travel Footprints">旅行足迹</h2>
+    <p style="font-size: var(--zy-text-base); margin-bottom: var(--zy-space-6); color: var(--zy-text-secondary); font-family: var(--zy-font-body); line-height: var(--zy-leading-relaxed);" data-zh="脚步丈量世界，镜头记录生活" data-en="Measuring the world with footsteps, recording life through the lens">脚步丈量世界，镜头记录生活</p>
+    <div style="width: 48px; height: 2px; background: linear-gradient(90deg, var(--zy-color-accent), var(--zy-color-accent-light)); border-radius: 1px;"></div>
+  </section>
+
+  <!-- Masonry Gallery Grid -->
+  <div class="zy-masonry">
+
+    <!-- Card 1: Changbai Skiing -->
+    <a href="#" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-changbaishan.jpg" alt="长白山滑雪" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-1);">
+            <span style="font-size: var(--zy-text-xs); font-weight: var(--zy-font-medium); padding: 2px 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); color: #fff; font-family: var(--zy-font-body);" data-zh="New" data-en="New">New</span>
+            <span style="font-size: var(--zy-text-xs); color: rgba(255,255,255,0.6); font-family: var(--zy-font-body);">2023</span>
+          </div>
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="长白山滑雪" data-en="Changbai Skiing">长白山滑雪</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="疫情解封后的第一次旅行，滑雪没想象的难" data-en="First trip after pandemic, skiing wasn't as hard as imagined">疫情解封后的第一次旅行，滑雪没想象的难</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 2: Japan Trip -->
+    <a href="https://mp.weixin.qq.com/s/goK5TmvvhVLBhQcdXJdeEA" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-japan.jpg" alt="日本之行" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <span style="font-size: var(--zy-text-xs); color: rgba(255,255,255,0.6); font-family: var(--zy-font-body);" data-zh="本科毕业旅行" data-en="Graduation trip">本科毕业旅行</span>
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="日本之行" data-en="Japan Trip">日本之行</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="本科毕业旅行，第一次出国" data-en="Graduation trip, first time abroad">本科毕业旅行，第一次出国</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 3: Shengsi Island Hopping -->
+    <a href="https://mp.weixin.qq.com/s/IQJ7aAXD4HRxp_MYuWhGkA" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-shengsi.jpg" alt="嵊泗跳岛游" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="嵊泗跳岛游" data-en="Shengsi Island Hopping">嵊泗跳岛游</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="徒步露营，体验感最强的一次旅行" data-en="Hiking and camping, the most intense travel experience">徒步露营，体验感最强的一次旅行</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 4: Berlin Trip -->
+    <a href="https://mp.weixin.qq.com/s/kW_cJ7asu1R-Oputg2utyQ" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-berlin.jpg" alt="柏林之行" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <span style="font-size: var(--zy-text-xs); color: rgba(255,255,255,0.6); font-family: var(--zy-font-body);">2018 FENS</span>
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="柏林之行" data-en="Berlin Trip">柏林之行</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="攻略做得最详细的一次，玩得很满足" data-en="Most detailed travel plan, incredibly satisfying">攻略做得最详细的一次，玩得很满足</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 5: Chenzhou Trip -->
+    <a href="https://mp.weixin.qq.com/s/xMb62D5FgBhf0LBnY9mguQ" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-chenzhou.jpg" alt="郴州行" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="郴州行" data-en="Chenzhou Trip">郴州行</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="体验网红景点，还好莽山还可以" data-en="Experiencing internet-famous spots, Mangshan was worth it">体验网红景点，还好莽山还可以</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 6: Daweishan Stargazing -->
+    <a href="https://mp.weixin.qq.com/s/nUO9xlAwKbWr1EHVNTlVOw" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-daweishan.jpg" alt="大围山的星空" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="大围山的星空" data-en="Daweishan Stargazing">大围山的星空</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="午夜雾散，第一次拍到星轨和流星" data-en="Midnight fog cleared, first time capturing star trails and meteors">午夜雾散，第一次拍到星轨和流星</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 7: Suzhou-Hangzhou Water Towns -->
+    <a href="https://mp.weixin.qq.com/s/3dDbQ4CTnIZsOlpQsGMvtA" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-hangzhou.jpg" alt="苏杭乌镇周庄" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="苏杭乌镇周庄" data-en="Suzhou-Hangzhou Water Towns">苏杭乌镇周庄</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="拍到过最美日落" data-en="Captured the most beautiful sunset">拍到过最美日落</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 8: Mount Tai & Changdao -->
+    <a href="https://mp.weixin.qq.com/s/48pe8EjHSf6Kzs43871AQw" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-taishan.jpg" alt="泰山长岛游" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="泰山长岛游" data-en="Mount Tai & Changdao">泰山长岛游</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="第一次知道生蚝可以如此便宜" data-en="First time knowing oysters could be so cheap">第一次知道生蚝可以如此便宜</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 9: Typhoon Coast Experience -->
+    <a href="https://mp.weixin.qq.com/s/z3UfO2sdQfxS-KlcPZjwfw" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-typhoon.jpg" alt="台风赶海" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="台风赶海" data-en="Typhoon Coast Experience">台风赶海</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="体验台风的强悍，离谱的赶海" data-en="Experiencing typhoon's power, an absurd coastal adventure">体验台风的强悍，离谱的赶海</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Card 10: Quick Chengdu Visit -->
+    <a href="https://mp.weixin.qq.com/s/9CocHC-Qhr7CfDw8BEsHnQ" target="_blank" rel="noopener noreferrer" class="gallery-card">
+      <div style="position: relative; overflow: hidden; border-radius: var(--zy-radius-lg);">
+        <img src="/images/gallery-chengdu.jpg" alt="浅游成都" loading="lazy" style="width: 100%; display: block;" />
+        <div class="gallery-overlay">
+          <h3 style="color: #fff; font-weight: var(--zy-font-semibold); font-size: var(--zy-text-base); font-family: var(--zy-font-display);" data-zh="浅游成都" data-en="Quick Chengdu Visit">浅游成都</h3>
+          <p style="color: #fff; font-size: var(--zy-text-xs); margin-top: var(--zy-space-1); opacity: 0.8;" data-zh="趁着开会顺便游成都，四姑娘山念了好多年" data-en="Quick visit during a conference, dreaming of Mount Siguniang for years">趁着开会顺便游成都，四姑娘山念了好多年</p>
+          <span class="gallery-readmore" data-zh="阅读游记" data-en="Read More">阅读游记
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+</BaseLayout>
+
+<style>
+  .gallery-card {
+    display: block;
+    border-radius: var(--zy-radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--zy-border);
+    color: inherit;
+    text-decoration: none;
+    break-inside: avoid;
+    margin-bottom: var(--zy-space-6);
+    transition: transform var(--zy-transition-base), box-shadow var(--zy-transition-base), border-color var(--zy-transition-base);
+  }
+
+  .gallery-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    border-color: var(--zy-color-primary-muted);
+  }
+
+  .gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--zy-space-5);
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0) 100%);
+  }
+
+  .gallery-readmore {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--zy-space-1);
+    font-size: var(--zy-text-xs);
+    font-weight: var(--zy-font-medium);
+    margin-top: var(--zy-space-2);
+    color: var(--zy-color-accent-light);
+    font-family: var(--zy-font-body);
+    opacity: 0;
+    transition: opacity var(--zy-transition-base);
+  }
+
+  .gallery-card:hover .gallery-readmore {
+    opacity: 1;
+  }
+</style>

@@ -1,0 +1,221 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="首页 | Boundless" activeNav="home">
+
+  <!-- HERO SECTION -->
+  <section class="fade-in" style="position: relative; overflow: hidden; display: flex; align-items: center; width: 100%; min-height: 560px;">
+    <div class="hero-bg" style="position: absolute; inset: 0; background-image: url('/images/hero-abstract.jpg'); background-size: cover; background-position: center; opacity: 0.25; filter: blur(1px);"></div>
+    <div style="position: relative; z-index: 2; width: 100%; max-width: var(--zy-container-max); margin-inline: auto; padding: var(--zy-space-12) var(--zy-space-6); padding-inline: var(--zy-space-6);">
+      <h1 style="font-family: var(--zy-font-display); font-size: clamp(40px, 6vw, 72px); font-weight: 600; line-height: 1.08; letter-spacing: -0.03em; color: var(--zy-text-primary); text-wrap: balance; word-break: keep-all; overflow-wrap: break-word;" data-zh="周 莹" data-en="ZHOU YING">周 莹</h1>
+      <p style="margin-top: var(--zy-space-5); font-family: var(--zy-font-display); font-size: clamp(18px, 2vw, 24px); font-weight: 400; font-style: italic; line-height: 1.35; color: var(--zy-text-secondary); letter-spacing: -0.01em; max-width: 520px;" data-zh="Live life as an infinite game" data-en="Live life as an infinite game">Live life as an infinite game</p>
+      <p style="margin-top: var(--zy-space-6); font-family: var(--zy-font-body); font-size: var(--zy-text-base); font-weight: 400; line-height: 1.6; color: var(--zy-text-secondary); max-width: 560px;" data-zh="致力于将计算生物学应用于生物医学研究，在多组学数据分析与神经科学交叉领域持续探索。" data-en="Applying computational biology to advance biomedical research, continuously exploring at the intersection of multi-omics data analysis and neuroscience.">致力于将计算生物学应用于生物医学研究，在多组学数据分析与神经科学交叉领域持续探索。</p>
+      <div style="margin-top: var(--zy-space-8);">
+        <a href="/about" style="display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; text-decoration: none; border-radius: var(--zy-radius-md); padding: 10px 20px; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); font-family: var(--zy-font-body); background-color: var(--zy-color-primary); color: var(--zy-text-primary); transition: transform 160ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" data-zh="了解更多" data-en="Learn More">了解更多</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRENT ROLE BADGE -->
+  <section style="width: 100%; max-width: var(--zy-container-max); margin-inline: auto; padding: var(--zy-space-8) var(--zy-space-6); padding-top: var(--zy-space-8);">
+    <div style="display: inline-flex; align-items: center; gap: var(--zy-space-2); border-radius: var(--zy-radius-full); padding: 8px 16px; background-color: var(--zy-color-primary-subtle); border: 1px solid rgba(79, 109, 142, 0.18);">
+      <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); flex-shrink: 0; background-color: var(--zy-color-accent);"></span>
+      <span style="font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); color: var(--zy-text-secondary); font-family: var(--zy-font-body);" data-zh="当前职位：生信工程师 | 爱彼爱科 (丽水) 医学检验实验室 | 浙大丽水研究中心 | 与加拿大 Moshe Szyf 教授团队合作，将学术研究向医学和健康管理转化" data-en="Current Role: Bioinformatics Engineer | Aibeiaike (Lishui) | ZJU Lishui Research Center | Collaborating with Prof. Moshe Szyf (Canada) to translate academic research into medicine and health management">当前职位：生信工程师 | 爱彼爱科 (丽水) 医学检验实验室 | 浙大丽水研究中心 | 与加拿大 Moshe Szyf 教授团队合作，将学术研究向医学和健康管理转化</span>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW SECTION -->
+  <section class="fade-in" style="width: 100%; max-width: var(--zy-container-max); margin-inline: auto; padding: var(--zy-space-16) var(--zy-space-6);">
+    <h2 style="font-family: var(--zy-font-display); font-size: clamp(22px, 2.4vw, 32px); font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; color: var(--zy-text-primary); text-wrap: balance; word-break: keep-all; margin-bottom: var(--zy-space-10);" data-zh="关于我" data-en="About Me">关于我</h2>
+    <div style="display: grid; grid-template-columns: 1fr; gap: var(--zy-space-6);">
+
+      <!-- Education Card -->
+      <div style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: border-color var(--zy-transition-base);" class="about-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-3); margin-bottom: var(--zy-space-4);">
+          <div style="width: 36px; height: 36px; border-radius: var(--zy-radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0; background-color: var(--zy-color-primary-subtle);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--zy-color-primary-light);"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+          </div>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="教育背景" data-en="Education">教育背景</h3>
+        </div>
+        <ul style="display: flex; flex-direction: column; gap: var(--zy-space-3); list-style: none; margin: 0; padding: 0;">
+          <li style="display: flex; flex-direction: column; gap: var(--zy-space-1);">
+            <span style="font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); color: var(--zy-text-primary);" data-zh="生物信息学硕士" data-en="MSc Bioinformatics">生物信息学硕士</span>
+            <span style="font-size: var(--zy-text-sm); color: var(--zy-text-secondary);" data-zh="哈尔滨医科大学 (2022-2025) | GPA 3.8" data-en="Harbin Medical University (2022-2025) | GPA 3.8">哈尔滨医科大学 (2022-2025) | GPA 3.8</span>
+          </li>
+          <li style="display: flex; flex-direction: column; gap: var(--zy-space-1);">
+            <span style="font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); color: var(--zy-text-primary);" data-zh="神经生物学硕士" data-en="MSc Neurobiology">神经生物学硕士</span>
+            <span style="font-size: var(--zy-text-sm); color: var(--zy-text-secondary);" data-zh="复旦大学 (2016-2020) | 论文答辩 92.32/100" data-en="Fudan University (2016-2020) | Thesis Defense 92.32/100">复旦大学 (2016-2020) | 论文答辩 92.32/100</span>
+          </li>
+          <li style="display: flex; flex-direction: column; gap: var(--zy-space-1);">
+            <span style="font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); color: var(--zy-text-primary);" data-zh="学士" data-en="BS">学士</span>
+            <span style="font-size: var(--zy-text-sm); color: var(--zy-text-secondary);" data-zh="湖南农业大学 (2012-2016) | GPA 3.59/4.0" data-en="Hunan Agricultural University (2012-2016) | GPA 3.59/4.0">湖南农业大学 (2012-2016) | GPA 3.59/4.0</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Research Focus Card -->
+      <div style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: border-color var(--zy-transition-base);" class="about-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-3); margin-bottom: var(--zy-space-4);">
+          <div style="width: 36px; height: 36px; border-radius: var(--zy-radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0; background-color: var(--zy-color-primary-subtle);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--zy-color-primary-light);"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg>
+          </div>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="研究方向" data-en="Research Focus">研究方向</h3>
+        </div>
+        <ul style="display: flex; flex-direction: column; gap: var(--zy-space-2); list-style: none; margin: 0; padding: 0;">
+          <li style="display: flex; align-items: flex-start; gap: var(--zy-space-2);">
+            <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0; margin-top: 6px;"></span>
+            <span style="font-size: var(--zy-text-sm); color: var(--zy-text-secondary);" data-zh="单细胞 RNA-seq 分析" data-en="Single-cell RNA-seq Analysis">单细胞 RNA-seq 分析</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--zy-space-2);">
+            <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0; margin-top: 6px;"></span>
+            <span style="font-size: var(--zy-text-sm); color: var(--zy-text-secondary);" data-zh="变异优先级排序" data-en="Variant Prioritization">变异优先级排序</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--zy-space-2);">
+            <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0; margin-top: 6px;"></span>
+            <span style="font-size: var(--zy-text-sm); color: var(--zy-text-secondary);" data-zh="神经细胞反卷积" data-en="Neural Cell Deconvolution">神经细胞反卷积</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Current Exploration Card -->
+      <div style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: border-color var(--zy-transition-base);" class="about-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-3); margin-bottom: var(--zy-space-4);">
+          <div style="width: 36px; height: 36px; border-radius: var(--zy-radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0; background-color: var(--zy-color-primary-subtle);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--zy-color-primary-light);"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          </div>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="当前探索" data-en="Current Exploration">当前探索</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="运用生物信息学技术探索神经科学领域，在计算生物学与神经科学的交叉地带寻找新的研究范式。" data-en="Exploring neuroscience through bioinformatics, seeking new research paradigms at the intersection of computational biology and neural science.">运用生物信息学技术探索神经科学领域，在计算生物学与神经科学的交叉地带寻找新的研究范式。</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESPONSIVE GRID for About Cards -->
+  <style>
+    @media (min-width: 768px) {
+      /* The about cards grid becomes 3 columns on md+ */
+    }
+  </style>
+
+  <!-- RESEARCH HIGHLIGHTS SECTION -->
+  <section class="fade-in" style="width: 100%; max-width: var(--zy-container-max); margin-inline: auto; padding: var(--zy-space-16) var(--zy-space-6);">
+    <h2 style="font-family: var(--zy-font-display); font-size: clamp(22px, 2.4vw, 32px); font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; color: var(--zy-text-primary); text-wrap: balance; word-break: keep-all; margin-bottom: var(--zy-space-10);" data-zh="项目经历" data-en="Projects">项目经历</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--zy-space-6);">
+
+      <!-- Project 1 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="胶质母细胞瘤与神经发育轨迹比较" data-en="GBM & Neurodevelopmental Trajectories">胶质母细胞瘤与神经发育轨迹比较</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="整合分析5个GBM单细胞/单核转录组数据集，与胎儿发育轨迹进行比对，系统描绘GBM中动态变化的分子表达谱" data-en="Integrated 5 GBM sc/snRNA-seq datasets, aligned with fetal developmental trajectories to systematically profile dynamic molecular expressions in GBM">整合分析5个GBM单细胞/单核转录组数据集，与胎儿发育轨迹进行比对，系统描绘GBM中动态变化的分子表达谱</p>
+      </article>
+
+      <!-- Project 2 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="骨关节炎诊断生物标志物发现" data-en="Osteoarthritis Diagnostic Biomarker Discovery">骨关节炎诊断生物标志物发现</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="整合bulk与单细胞RNA-seq数据，利用机器学习鉴定骨关节炎诊断的5基因生物标志物组合" data-en="Integrating bulk and scRNA-seq data to identify a diagnostic 5-gene biomarker panel for osteoarthritis using ML">整合bulk与单细胞RNA-seq数据，利用机器学习鉴定骨关节炎诊断的5基因生物标志物组合</p>
+      </article>
+
+      <!-- Project 3 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="非酒精性脂肪肝配体-受体互作研究" data-en="NAFLD Ligand-Receptor Interaction Study">非酒精性脂肪肝配体-受体互作研究</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="结合多组学数据与计算药物发现方法，鉴定NAFLD中配体-受体互作相关生物标志物" data-en="Combining multi-omics data with computational drug discovery to identify ligand-receptor biomarkers in NAFLD">结合多组学数据与计算药物发现方法，鉴定NAFLD中配体-受体互作相关生物标志物</p>
+      </article>
+
+      <!-- Project 4 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="外显子组变异优先级排序优化" data-en="Exome Variant Prioritization Optimization">外显子组变异优先级排序优化</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="基于熵加权集成方法改进变异优先级排序，加速分子诊断（共同第一作者，已发表）" data-en="Entropy-weighted ensemble method for variant prioritization to accelerate molecular diagnosis (First co-author, published)">基于熵加权集成方法改进变异优先级排序，加速分子诊断（共同第一作者，已发表）</p>
+      </article>
+
+      <!-- Project 5 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="VIP中间神经元亚群分类" data-en="VIP Interneuron Subpopulation Classification">VIP中间神经元亚群分类</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="利用机器学习对体感皮层VIP阳性中间神经元进行精细分类（已发表）" data-en="Fine classification of VIP+ interneurons in somatosensory cortex using ML (published)">利用机器学习对体感皮层VIP阳性中间神经元进行精细分类（已发表）</p>
+      </article>
+
+      <!-- Project 6 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="断奶后隔离对小鼠焦虑抑郁样行为的影响" data-en="Effect of Post-weaning Isolation on Anxiety/Depressive-like Behaviors">断奶后隔离对小鼠焦虑抑郁样行为的影响</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="参与构建断奶后社会隔离小鼠模型，系统评估隔离应激对小鼠焦虑样和抑郁样行为的影响（已发表）" data-en="Built post-weaning social isolation mouse model, systematically evaluating effects of isolation stress on anxiety/depressive-like behaviors (published)">参与构建断奶后社会隔离小鼠模型，系统评估隔离应激对小鼠焦虑样和抑郁样行为的影响（已发表）</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- LATEST / BLOG SECTION -->
+  <section class="fade-in" style="width: 100%; max-width: var(--zy-container-max); margin-inline: auto; padding: var(--zy-space-16) var(--zy-space-6);">
+    <h2 style="font-family: var(--zy-font-display); font-size: clamp(22px, 2.4vw, 32px); font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; color: var(--zy-text-primary); text-wrap: balance; word-break: keep-all; margin-bottom: var(--zy-space-10);" data-zh="最新动态" data-en="Latest">最新动态</h2>
+    <div style="display: flex; flex-direction: column; gap: var(--zy-space-4);">
+
+      <!-- Blog Entry 1 -->
+      <a href="/blog" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
+        <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2025.06</time>
+        <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" data-zh="胶质母细胞瘤单细胞数据分析" data-en="GBM Single-cell Data Analysis">胶质母细胞瘤单细胞数据分析</h3>
+          <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" data-zh="系统比较GBM与神经发育轨迹，揭示肿瘤中神经成分的分子特征" data-en="Systematic comparison of GBM and neurodevelopmental trajectories, revealing molecular features of neural components in tumors">系统比较GBM与神经发育轨迹，揭示肿瘤中神经成分的分子特征</p>
+        </div>
+      </a>
+
+      <!-- Blog Entry 2 -->
+      <a href="/blog" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
+        <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2025.03</time>
+        <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" data-zh="从神经生物学到生物信息学" data-en="From Neurobiology to Bioinformatics">从神经生物学到生物信息学</h3>
+          <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" data-zh="回顾从复旦神经生物学到哈医大生物信息学的研究转向历程" data-en="Reflecting on the research transition from Fudan neurobiology to HMU bioinformatics">回顾从复旦神经生物学到哈医大生物信息学的研究转向历程</p>
+        </div>
+      </a>
+
+      <!-- Blog Entry 3 -->
+      <a href="/blog" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
+        <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2024.10</time>
+        <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" data-zh="甲基化与青少年抑郁诊断研究" data-en="Methylation & Adolescent Depression Diagnosis">甲基化与青少年抑郁诊断研究</h3>
+          <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" data-zh="2025.12.1起，同丽水市第二人民医院合作开展青少年抑郁甲基化诊断研究" data-en="Since Dec 2025, collaborating with Lishui Second People's Hospital on adolescent depression methylation diagnosis">2025.12.1起，同丽水市第二人民医院合作开展青少年抑郁甲基化诊断研究</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  @media (min-width: 768px) {
+    /* Make about cards 3 columns */
+    section:has(.about-card) + section {
+      /* handled by layout */
+    }
+  }
+
+  .research-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(79, 109, 142, 0.2);
+  }
+
+  .blog-entry:hover {
+    background-color: var(--zy-bg-surface-hover);
+  }
+
+  .about-card:hover {
+    border-color: rgba(79, 109, 142, 0.18);
+  }
+</style>
