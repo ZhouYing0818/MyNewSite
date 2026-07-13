@@ -378,6 +378,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     document.querySelectorAll('.mohe-panel').forEach(p => p.classList.remove('active'));
     document.querySelector(`.mohe-tab[data-tab="${tab}"]`)?.classList.add('active');
     document.getElementById(tab === 'photos' ? 'mohePhotos' : 'moheVideo')?.classList.add('active');
+    // When video tab is active, disable overlay clicks so video area is clickable
+    const overlay = document.querySelector('#moheCard .gallery-overlay');
+    if (overlay) overlay.style.pointerEvents = tab === 'video' ? 'none' : '';
   }
 
   // Open video lightbox from video tab click
