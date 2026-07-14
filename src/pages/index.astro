@@ -108,12 +108,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
         <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
           <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="甲基化与青少年抑郁诊断研究" data-en="Methylation & Adolescent Depression Diagnosis">甲基化与青少年抑郁诊断研究</h3>
+        </div>
+        <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="同丽水市第二人民医院合作，探索DNA甲基化标志物在青少年抑郁早期诊断中的应用" data-en="Collaborating with Lishui Second People's Hospital, exploring DNA methylation biomarkers for early diagnosis of adolescent depression">同丽水市第二人民医院合作，探索DNA甲基化标志物在青少年抑郁早期诊断中的应用</p>
+      </article>
+
+      <!-- Project 2 -->
+      <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
+        <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
+          <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
           <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em;" data-zh="胶质母细胞瘤与神经发育轨迹比较" data-en="GBM & Neurodevelopmental Trajectories">胶质母细胞瘤与神经发育轨迹比较</h3>
         </div>
         <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6;" data-zh="整合分析5个GBM单细胞/单核转录组数据集，与胎儿发育轨迹进行比对，系统描绘GBM中动态变化的分子表达谱" data-en="Integrated 5 GBM sc/snRNA-seq datasets, aligned with fetal developmental trajectories to systematically profile dynamic molecular expressions in GBM">整合分析5个GBM单细胞/单核转录组数据集，与胎儿发育轨迹进行比对，系统描绘GBM中动态变化的分子表达谱</p>
       </article>
 
-      <!-- Project 2 -->
+      <!-- Project 3 -->
       <article style="background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); border-radius: var(--zy-radius-md); padding: var(--zy-space-6); transition: transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="research-card">
         <div style="display: flex; align-items: center; gap: var(--zy-space-2); margin-bottom: var(--zy-space-4);">
           <span style="width: 8px; height: 8px; border-radius: var(--zy-radius-full); background-color: var(--zy-color-accent); flex-shrink: 0;"></span>
@@ -167,6 +176,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div style="display: flex; flex-direction: column; gap: var(--zy-space-4);">
 
       <!-- Blog Entry 1 -->
+      <a href="/projects" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
+        <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2025.12</time>
+        <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
+          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" data-zh="甲基化与青少年抑郁诊断研究" data-en="Methylation & Adolescent Depression Diagnosis">甲基化与青少年抑郁诊断研究</h3>
+          <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" data-zh="2025.12.1起，同丽水市第二人民医院合作开展青少年抑郁甲基化诊断研究" data-en="Since Dec 2025, collaborating with Lishui Second People's Hospital on adolescent depression methylation diagnosis">2025.12.1起，同丽水市第二人民医院合作开展青少年抑郁甲基化诊断研究</p>
+        </div>
+      </a>
+
+      <!-- Blog Entry 2 -->
       <a href="/blog" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
         <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2025.06</time>
         <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
@@ -175,21 +193,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
       </a>
 
-      <!-- Blog Entry 2 -->
-      <a href="/blog" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
+      <!-- Blog Entry 3 -->
+      <a href="/blog/2024-07-01-update_my_research_interests" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
         <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2025.03</time>
         <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
           <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" data-zh="从神经生物学到生物信息学" data-en="From Neurobiology to Bioinformatics">从神经生物学到生物信息学</h3>
           <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" data-zh="回顾从复旦神经生物学到哈医大生物信息学的研究转向历程" data-en="Reflecting on the research transition from Fudan neurobiology to HMU bioinformatics">回顾从复旦神经生物学到哈医大生物信息学的研究转向历程</p>
-        </div>
-      </a>
-
-      <!-- Blog Entry 3 -->
-      <a href="/blog" style="display: flex; align-items: flex-start; gap: var(--zy-space-5); border-radius: var(--zy-radius-md); padding: var(--zy-space-5); text-decoration: none; background-color: var(--zy-bg-surface); border: 1px solid var(--zy-border); transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1);" class="blog-entry">
-        <time style="flex-shrink: 0; font-size: var(--zy-text-sm); font-weight: var(--zy-font-medium); white-space: nowrap; font-family: var(--zy-font-mono); color: var(--zy-text-muted); min-width: 72px;">2024.10</time>
-        <div style="display: flex; flex-direction: column; gap: var(--zy-space-1); min-width: 0;">
-          <h3 style="font-size: var(--zy-text-base); font-weight: var(--zy-font-semibold); font-family: var(--zy-font-body); color: var(--zy-text-primary); letter-spacing: -0.01em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" data-zh="甲基化与青少年抑郁诊断研究" data-en="Methylation & Adolescent Depression Diagnosis">甲基化与青少年抑郁诊断研究</h3>
-          <p style="font-size: var(--zy-text-sm); margin: 0; color: var(--zy-text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" data-zh="2025.12.1起，同丽水市第二人民医院合作开展青少年抑郁甲基化诊断研究" data-en="Since Dec 2025, collaborating with Lishui Second People's Hospital on adolescent depression methylation diagnosis">2025.12.1起，同丽水市第二人民医院合作开展青少年抑郁甲基化诊断研究</p>
         </div>
       </a>
 
